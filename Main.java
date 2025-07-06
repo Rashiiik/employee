@@ -33,7 +33,7 @@ public class Main {
         }
 
         for (BasePlusCommissionEmployee e: basePlusCommissionEmployees) {
-            System.out.println(e + "\nCommission: " + e.earnings() + "\nBase Salary: " + e.getSalary());
+            System.out.println(e + "\nCommission: " + e.earnings() + "\nBase Salary: " + e.getSalary() + "\nIncreased Base Salary: " + e.getIncreasedSalary());
         }
 
 
