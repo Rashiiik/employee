@@ -3,14 +3,10 @@ package inheritance;
 import java.util.ArrayList;
 
 public class Main {
+    
     public static void main(String[] args) {
 
         ArrayList<Employee> employees = new ArrayList<>();
-
-        ArrayList<SalariedEmployee> salariedEmployees = new ArrayList<>();
-        ArrayList<HourlyEmployee> hourlyEmployees = new ArrayList<>();
-        ArrayList<CommissionEmployee> commissionEmployees = new ArrayList<>();
-        ArrayList<BasePlusCommissionEmployee> basePlusCommissionEmployees = new ArrayList<>();
 
         employees.add(new SalariedEmployee("Arman", "Mansur", "123-45-6789", 1000));
         employees.add(new SalariedEmployee("Robert", "Bruce", "987-65-4321", 1500));
